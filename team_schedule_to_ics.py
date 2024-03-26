@@ -75,7 +75,7 @@ def create_ics(schedule, config):
 
 def main():
     config = configparser.ConfigParser()
-    config.read('get_nhl_team_schedule.ini')
+    config.read('team_schedule_to_ics.ini')
 
     debug_mode = get_config_value(config, 'settings', 'debug', default=False)
 
