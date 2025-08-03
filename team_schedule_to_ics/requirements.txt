@@ -1,6 +1,3 @@
-configparser
-datetime
-ics
-logging
-pytz
 requests
+pytz
+ics
