@@ -1,0 +1,14 @@
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+*.py[cod]
+*.log
+
+# Ignore virtual environments
+.venv/
+hockey.code-workspace
+env/
+
+# dotenv or secret files
+.env
+*.env
